@@ -1,1 +1,10 @@
 <app-item-detail [item]="currentItem"></app-item-detail>
+
+<br />
+<div>--------------------------------------------------------------------</div>
+<br />
+
+<app-item-output (newItemEvent)="addItem($event)"></app-item-output>
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
