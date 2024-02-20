@@ -8,3 +8,6 @@
 <ul>
   <li *ngFor="let item of items">{{item}}</li>
 </ul>
+
+<app-input-output [item]="currentItem" (deleteRequest)="crossOffItem($event)">
+</app-input-output>
