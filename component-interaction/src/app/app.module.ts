@@ -13,6 +13,9 @@ import { VoterComponent } from './voter.component';
 import { VoteTakerComponent } from './votetaker.component';
 import { CountdownTimerComponent } from './countdown-timer.component';
 import { CountdownLocalVarParentComponent } from './countdown-parent.component';
+import { CountdownViewChildParentComponent } from './countdown-parent-vc.component';
+import { MissionControlComponent } from './missioncontrol.component';
+import { AstronautComponent } from './astronaut.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { CountdownLocalVarParentComponent } from './countdown-parent.component';
     VoteTakerComponent,
     CountdownLocalVarParentComponent,
     CountdownTimerComponent,
+    CountdownViewChildParentComponent,
+    MissionControlComponent,
+    AstronautComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
